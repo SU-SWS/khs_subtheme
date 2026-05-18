@@ -1,11 +1,11 @@
-# [Knight Hennessy](https://github.com/SU-SWS/khs_subtheme)
+# [Knight-Hennessy Subtheme](https://github.com/SU-SWS/khs_subtheme)
 
 Changelog: [Changelog.txt](CHANGELOG.txt)
 
 Description
 ---
 
-Knight Hennessy is a Stanford sub-theme that works with the Stanford Basic theme.
+Knight-Hennessy is a Stanford sub-theme that works with the Stanford Basic theme.
 
 Documentation
 ---
