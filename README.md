@@ -1,5 +1,4 @@
 # [Knight Hennessy](https://github.com/SU-SWS/khs_subtheme)
-##### Version: 8.x-1.0-dev
 
 Changelog: [Changelog.txt](CHANGELOG.txt)
 
