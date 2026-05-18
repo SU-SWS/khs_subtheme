@@ -1,8 +1,8 @@
-name: Knight Hennessy
+name: Knight-Hennessy Subtheme
 type: theme
-description: 'Knight Hennessy Theme.'
+description: 'Knight-Hennessy Theme which includes a custom banner variant and other small fixes.'
 package: Stanford
-version: 8.x-1.0-dev
+version: 1.0.0
 core_version_requirement: ^9 || ^10 || ^11
 base theme: stanford_basic
 libraries:
