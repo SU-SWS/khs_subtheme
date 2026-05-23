@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+.khs--eq-col-list {
+  ul {
+      columns: 3;
+      list-style: none;
+      padding: 0;
+      column-gap: 50px;
+  }
+}
