@@ -10,8 +10,22 @@ banner_variant_info:  # part of the key after the :
       type: select
       title: 'Banner style'
       description: Select the button color for displaying this banner.
-#      default_value: chemh-wrapper--banner-default
       options:
         khs--banner-default: Default variant
         khs--banner-constrained-ratio: Fixed aspect ratio variant
+wysiwyg_style:
+  id: wysiwyg_style
+  label: WYSIWYG Paragraph Style
+  bundles:
+    - paragraphs_type|stanford_wysiwyg
+  config:
+    wysiwyg_style:
+      type: select
+      title: WYSIWYG Style
+      description: Select the style to display.
+      options:
+        khs--default: Default
+        khs--eq-col-list: Equal Column Bulleted List
+
+
 
