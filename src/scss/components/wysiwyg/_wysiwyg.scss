@@ -2,9 +2,17 @@
 
 .khs--eq-col-list {
   ul {
-      columns: 3;
+      columns: 1;
       list-style: none;
       padding: 0;
       column-gap: 50px;
+
+      @include grid-media('md') {
+        columns: 2;
+      }
+
+      @include grid-media('lg') {
+        columns: 3;
+      }
   }
 }
