@@ -12,6 +12,14 @@
     }
 
   .su-hero {
-    min-height: 520px;
+
+    .su-hero__card {
+      background: #fff;
+      bottom: unset;
+      left: unset;
+      margin-bottom: unset;
+      margin-top: unset;
+      max-width: unset;
+    }
   }
 }
