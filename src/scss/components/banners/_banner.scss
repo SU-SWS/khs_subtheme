@@ -1,8 +1,25 @@
 @charset "UTF-8";
 
 .khs--banner-constrained-ratio {
-  .su-hero__media img {
-    object-fit: contain;
-    background-color: #8c1715;
+  .su-hero__media {
+      min-height: unset;
+      position: relative;
+    }
+
+    img {
+      object-fit: contain;
+      background-color: #8c1715;
+    }
+
+  .su-hero {
+
+    .su-hero__card {
+      background: #fff;
+      bottom: unset;
+      left: unset;
+      margin-bottom: unset;
+      margin-top: unset;
+      max-width: unset;
+    }
   }
 }

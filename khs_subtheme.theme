@@ -39,6 +39,19 @@ function khs_subtheme_preprocess_ds_entity_view(&$variables) {
 }
 
 /**
+ * Implements hook_preprocess_HOOK().
+ */
+function khs_subtheme_preprocess_paragraph__stanford_wysiwyg(array &$variables): void {
+  /** @var \Drupal\paragraphs\Entity\Paragraph $paragraph */
+  $paragraph = &$variables['paragraph'];
+  $existing_classes = $variables['attributes']['class'] ?? [];
+  $extra_classes = [
+    $paragraph->getBehaviorSetting('react_paragraphs:wysiwyg_style', 'wysiwyg_style', 'khs--default'),
+  ];
+  $variables['attributes']['class'] = array_merge($existing_classes, $extra_classes);
+}
+
+/**
  * Implements hook_preprocess_banner().
  */
 function khs_subtheme_preprocess_banner(&$variables) {
