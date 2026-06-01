@@ -12,7 +12,6 @@
     }
 
   .su-hero {
-
     .su-hero__card {
       background: #fff;
       bottom: unset;
@@ -21,5 +20,9 @@
       margin-top: unset;
       max-width: unset;
     }
+  }
+
+  .su-card__contents {
+    align-items: center;
   }
 }
